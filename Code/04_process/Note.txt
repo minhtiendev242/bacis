@@ -1,0 +1,5 @@
+123:
+
+lenh kiem tra pid: ps aux |grep <ten tien trinh>
+wait(): su dung de quan ly trang thai ket thuc cua  one of child processes created by parent process, va giai phong tai nguyen con lai cua no
+safe-fork: dung tien trinh con tranh tao ra zombie process ma vx dam bao main process vx hoat dong
