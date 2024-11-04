@@ -1,0 +1,17 @@
+🧱️thread
+
+pthreah_self() = getpid(): Lay thread id
+pthread_equal(): truyen doi so
+
+pthread_join(): ket noi cac thread ngang hang. Cac thread deu co the thu thap trang thai ket thuc cua cac thread khac
+
+pthread_cancel(): gui yeu cau ket thuc thread toi 1 thread cu the
+// cac thread hoat dong song song voi nhau nen thong tin dc ghi xen ke
+
+Detached thread: He thong se tu dong don dep cai tai nguyen con lai cua thread ma k can goi pthr_join
+
+🍓️Synchronization
+Atomic: only thread can use - safe mode
+Nonatomic: share - unsafe mode
+
+
