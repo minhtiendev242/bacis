@@ -1,0 +1,9 @@
+1 Process phai bao gom SIGKILL va SIGSTOP
+
+Block signal giup giai quyet van de lam gian doan qua trinh thuc thi cua signal
+
+Blocking Signal:
+	sigprocmask(int how, newset, oldset)
+	//oldset: signal mask cua process hien tai
+	//newset: set cac gia tri signal muon block
+	
