@@ -1,0 +1,4 @@
+Pipe: Du lieu di theo 1 chieu
+
+Tao FIFO tu shell:
+	mkfifo [-m mode] pathname
