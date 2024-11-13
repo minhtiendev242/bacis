@@ -1,0 +1,21 @@
+
+Domain
+	Internet:  //dai dien boi sockaddr_in 
+		ipv4  AF_INET
+		ipv6  AF_INET6
+		
+	Unix		//sockaddr_un 
+	 	AF_UNIX
+Type:
+	Stream(TCP)     SOCK_STREAMs
+	Datagram(UDP)	SOCK_DGRAM
+
+Protocol: luon la 0
+
+Internet Domain su dung dia chi IP
+Unix Domain su dung file de lam dia chi 
+
+Bigedian: Thay doi Byte o MSB -> dan den thay doi lon
+LittleEdian: Thay doi byte o LSB -> thay doi nho
+
+
